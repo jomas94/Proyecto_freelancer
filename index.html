@@ -101,26 +101,39 @@
                 <fieldset>
                     <legend>Contáctame</legend>
                     
-                    <label for="">Nombre</label>
-                    <input type="text" placeholder="Nombre">
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input class="input-text" type="text" placeholder="Nombre">
+                        </div>
+                        <div class="campo">
+                            
+                            <label for="">Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Teléfono">
+                        </div>
+                        <div class="campo">
+                            
+                            <label for="">Correo</label>
+                            <input class="input-text" type="mail" placeholder="Email">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                        
+                    </div>
                     
-                    <label for="">Teléfono</label>
-                    <input type="tel" placeholder="Teléfono">
-                    
-                    <label for="">Correo</label>
-                    <input type="mail" placeholder="Email">
-                    
-                    <label for="">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    
-                    <input type="submit" value="Enviar">
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
                 </fieldset>
             </form>
         </section>
     </main>
         
-        <footer>
-            <p>Todos los derechos reservados</p>
+        <footer class="footer">
+            <p>Todos los derechos reservados. <a href="https://github.com/jomas94" target="_blank">Jomario Andrade - Web Developer</a></p>
         </footer>
     </body>
     </html>
